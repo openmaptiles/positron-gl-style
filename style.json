@@ -19,10 +19,10 @@
     }
   },
   "center": [
-    8.599942896039693,
-    47.333400594204676
+    8.501717384240095,
+    47.265345646152184
   ],
-  "zoom": 9.564237223141516,
+  "zoom": 7.896476801499933,
   "bearing": 0,
   "pitch": 0,
   "sources": {
@@ -1417,7 +1417,12 @@
           "Point"
         ],
         [
-          "any",
+          "all",
+          [
+            "!=",
+            "capital",
+            2
+          ],
           [
             "==",
             "subclass",
@@ -1426,7 +1431,7 @@
           [
             ">",
             "rank",
-            2
+            3
           ]
         ]
       ],
@@ -1481,6 +1486,87 @@
       }
     },
     {
+      "id": "place-capital",
+      "type": "symbol",
+      "metadata": {
+        "mapbox:group": "101da9f13b64a08fa4b6ac1168e89e5f"
+      },
+      "source": "openmaptiles",
+      "source-layer": "place",
+      "maxzoom": 12,
+      "interactive": true,
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "Point"
+        ],
+        [
+          "all",
+          [
+            "==",
+            "capital",
+            2
+          ],
+          [
+            "==",
+            "subclass",
+            "city"
+          ]
+        ]
+      ],
+      "layout": {
+        "text-size": 14,
+        "icon-image": {
+          "base": 1,
+          "stops": [
+            [
+              0,
+              "star-11"
+            ],
+            [
+              9,
+              ""
+            ]
+          ]
+        },
+        "text-transform": "uppercase",
+        "text-font": [
+          "Azo Sans Regular",
+          "Arial Unicode MS Regular"
+        ],
+        "text-justify": "left",
+        "visibility": "visible",
+        "text-offset": [
+          0.5,
+          0.2
+        ],
+        "icon-size": 1,
+        "text-anchor": {
+          "base": 1,
+          "stops": [
+            [
+              0,
+              "left"
+            ],
+            [
+              8,
+              "center"
+            ]
+          ]
+        },
+        "text-field": "{name}"
+      },
+      "paint": {
+        "text-color": "rgb(117, 129, 145)",
+        "text-halo-color": "rgb(242,243,240)",
+        "text-halo-width": 1,
+        "text-halo-blur": 1,
+        "icon-opacity": 0.7
+      }
+    },
+    {
       "id": "place-city-large",
       "type": "symbol",
       "metadata": {
@@ -1499,6 +1585,11 @@
         ],
         [
           "all",
+          [
+            "!=",
+            "capital",
+            2
+          ],
           [
             "<=",
             "rank",
