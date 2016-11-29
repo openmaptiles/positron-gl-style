@@ -19,10 +19,10 @@
     }
   },
   "center": [
-    8.535115819884993,
-    47.37899904408064
+    8.599942896039693,
+    47.333400594204676
   ],
-  "zoom": 14.363784642821418,
+  "zoom": 9.564237223141516,
   "bearing": 0,
   "pitch": 0,
   "sources": {
@@ -31,7 +31,7 @@
       "type": "vector"
     }
   },
-  "sprite": "mapbox://sprites/morgenkaffee/citrizmro00012jobp82m7n62/draft",
+  "sprite": "mapbox://sprites/morgenkaffee/ciuxun7se019v2jl8qb2jt3tf",
   "glyphs": "mapbox://fonts/morgenkaffee/{fontstack}/{range}.pbf",
   "layers": [
     {
@@ -147,7 +147,7 @@
       "type": "fill",
       "source": "openmaptiles",
       "source-layer": "landuse",
-      "maxzoom": 9,
+      "maxzoom": 16,
       "interactive": true,
       "filter": [
         "all",
@@ -176,7 +176,7 @@
             ],
             [
               9,
-              0.4
+              0.6
             ]
           ]
         }
@@ -226,7 +226,7 @@
       "id": "landuse-park",
       "type": "fill",
       "source": "openmaptiles",
-      "source-layer": "landuse",
+      "source-layer": "park",
       "interactive": true,
       "filter": [
         "all",
@@ -238,7 +238,7 @@
         [
           "==",
           "class",
-          "park"
+          "national_park"
         ]
       ],
       "layout": {
@@ -314,13 +314,13 @@
       }
     },
     {
-      "id": "highway-motorway-tunnel-casing ",
+      "id": "transport-motorway-tunnel-casing ",
       "type": "line",
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
       "source": "openmaptiles",
-      "source-layer": "highway",
+      "source-layer": "transportation",
       "minzoom": 6,
       "interactive": true,
       "filter": [
@@ -334,14 +334,13 @@
           "all",
           [
             "==",
-            "class",
-            "motorway"
+            "brunnel",
+            "tunnel"
           ],
           [
-            "in",
-            "properties",
-            "tunnel",
-            "tunnel:oneway"
+            "==",
+            "class",
+            "motorway"
           ]
         ]
       ],
@@ -373,13 +372,13 @@
       }
     },
     {
-      "id": "highway-motorway-tunnel-inner",
+      "id": "transport-motorway-tunnel-inner",
       "type": "line",
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
       "source": "openmaptiles",
-      "source-layer": "highway",
+      "source-layer": "transportation",
       "minzoom": 6,
       "interactive": true,
       "filter": [
@@ -393,14 +392,13 @@
           "all",
           [
             "==",
-            "class",
-            "motorway"
+            "brunnel",
+            "tunnel"
           ],
           [
-            "in",
-            "properties",
-            "tunnel",
-            "tunnel:oneway"
+            "==",
+            "class",
+            "motorway"
           ]
         ]
       ],
@@ -431,13 +429,13 @@
       }
     },
     {
-      "id": "highway-path",
+      "id": "transport-path",
       "type": "line",
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
       "source": "openmaptiles",
-      "source-layer": "highway",
+      "source-layer": "transportation",
       "interactive": true,
       "filter": [
         "all",
@@ -476,13 +474,13 @@
       }
     },
     {
-      "id": "highway-minor",
+      "id": "transport-minor",
       "type": "line",
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
       "source": "openmaptiles",
-      "source-layer": "highway",
+      "source-layer": "transportation",
       "minzoom": 8,
       "interactive": true,
       "filter": [
@@ -493,9 +491,11 @@
           "LineString"
         ],
         [
-          "==",
+          "in",
           "class",
-          "minor_road"
+          "minor",
+          "service",
+          "track"
         ]
       ],
       "layout": {
@@ -522,13 +522,13 @@
       }
     },
     {
-      "id": "highway-major-casing",
+      "id": "transport-major-casing",
       "type": "line",
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
       "source": "openmaptiles",
-      "source-layer": "highway",
+      "source-layer": "transportation",
       "minzoom": 11,
       "interactive": true,
       "filter": [
@@ -539,9 +539,12 @@
           "LineString"
         ],
         [
-          "==",
+          "in",
           "class",
-          "major_road"
+          "primary",
+          "secondary",
+          "tertiary",
+          "trunk"
         ]
       ],
       "layout": {
@@ -571,13 +574,13 @@
       }
     },
     {
-      "id": "highway-major-inner",
+      "id": "transport-major-inner",
       "type": "line",
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
       "source": "openmaptiles",
-      "source-layer": "highway",
+      "source-layer": "transportation",
       "minzoom": 11,
       "interactive": true,
       "filter": [
@@ -588,9 +591,12 @@
           "LineString"
         ],
         [
-          "==",
+          "in",
           "class",
-          "major_road"
+          "primary",
+          "secondary",
+          "tertiary",
+          "trunk"
         ]
       ],
       "layout": {
@@ -616,13 +622,13 @@
       }
     },
     {
-      "id": "highway-major-subtle",
+      "id": "transport-major-subtle",
       "type": "line",
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
       "source": "openmaptiles",
-      "source-layer": "highway",
+      "source-layer": "transportation",
       "maxzoom": 11,
       "interactive": true,
       "filter": [
@@ -633,9 +639,12 @@
           "LineString"
         ],
         [
-          "==",
+          "in",
           "class",
-          "major_road"
+          "primary",
+          "secondary",
+          "tertiary",
+          "trunk"
         ]
       ],
       "layout": {
@@ -649,13 +658,13 @@
       }
     },
     {
-      "id": "highway-motorway-casing",
+      "id": "transport-motorway-casing",
       "type": "line",
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
       "source": "openmaptiles",
-      "source-layer": "highway",
+      "source-layer": "transportation",
       "minzoom": 6,
       "interactive": true,
       "filter": [
@@ -669,9 +678,9 @@
           "all",
           [
             "!in",
-            "properties",
-            "tunnel",
-            "tunnel:oneway"
+            "brunnel",
+            "bridge",
+            "tunnel"
           ],
           [
             "==",
@@ -712,13 +721,13 @@
       }
     },
     {
-      "id": "highway-motorway-inner",
+      "id": "transport-motorway-inner",
       "type": "line",
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
       "source": "openmaptiles",
-      "source-layer": "highway",
+      "source-layer": "transportation",
       "minzoom": 6,
       "interactive": true,
       "filter": [
@@ -732,9 +741,9 @@
           "all",
           [
             "!in",
-            "properties",
-            "tunnel",
-            "tunnel:oneway"
+            "brunnel",
+            "bridge",
+            "tunnel"
           ],
           [
             "==",
@@ -782,13 +791,13 @@
       }
     },
     {
-      "id": "highway-motorway-subtle",
+      "id": "transport-motorway-subtle",
       "type": "line",
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
       "source": "openmaptiles",
-      "source-layer": "highway",
+      "source-layer": "transportation",
       "maxzoom": 6,
       "interactive": true,
       "filter": [
@@ -827,13 +836,52 @@
       }
     },
     {
-      "id": "railway-minor",
+      "id": "railway-service",
       "type": "line",
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
       "source": "openmaptiles",
-      "source-layer": "railway",
+      "source-layer": "transportation",
+      "minzoom": 16,
+      "interactive": true,
+      "filter": [
+        "all",
+        [
+          "==",
+          "$type",
+          "LineString"
+        ],
+        [
+          "all",
+          [
+            "==",
+            "class",
+            "rail"
+          ],
+          [
+            "has",
+            "service"
+          ]
+        ]
+      ],
+      "layout": {
+        "visibility": "visible",
+        "line-join": "round"
+      },
+      "paint": {
+        "line-color": "#dddddd",
+        "line-width": 3
+      }
+    },
+    {
+      "id": "railway-service-dashline",
+      "type": "line",
+      "metadata": {
+        "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
+      },
+      "source": "openmaptiles",
+      "source-layer": "transportation_name",
       "minzoom": 16,
       "interactive": true,
       "filter": [
@@ -854,18 +902,6 @@
         "line-join": "round"
       },
       "paint": {
-        "line-color": "#dddddd",
-        "line-width": 3
-      }
-    },
-    {
-      "id": "railway-minor-dashline",
-      "metadata": {
-        "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
-      },
-      "ref": "railway-minor",
-      "interactive": true,
-      "paint": {
         "line-color": "#fafafa",
         "line-width": 2,
         "line-dasharray": [
@@ -881,7 +917,7 @@
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
       "source": "openmaptiles",
-      "source-layer": "railway",
+      "source-layer": "transportation",
       "minzoom": 13,
       "interactive": true,
       "filter": [
@@ -892,9 +928,16 @@
           "LineString"
         ],
         [
-          "==",
-          "class",
-          "rail"
+          "all",
+          [
+            "!has",
+            "service"
+          ],
+          [
+            "==",
+            "class",
+            "rail"
+          ]
         ]
       ],
       "layout": {
@@ -947,13 +990,13 @@
       }
     },
     {
-      "id": "highway-name-other",
+      "id": "transport-name-other",
       "type": "symbol",
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
       "source": "openmaptiles",
-      "source-layer": "highway_name",
+      "source-layer": "transportation_name",
       "interactive": true,
       "filter": [
         "all",
@@ -995,13 +1038,13 @@
       }
     },
     {
-      "id": "highway-name-motorway",
+      "id": "transport-name-motorway",
       "type": "symbol",
       "metadata": {
         "mapbox:group": "b6371a3f2f5a9932464fa3867530a2e5"
       },
       "source": "openmaptiles",
-      "source-layer": "highway_name",
+      "source-layer": "transportation_name",
       "interactive": true,
       "filter": [
         "all",
@@ -1149,11 +1192,21 @@
           "Point"
         ],
         [
-          "in",
-          "class",
-          "hamlet",
-          "isolated_dwelling",
-          "neighbourhood"
+          "all",
+          [
+            "!in",
+            "subclass",
+            "city",
+            "suburb",
+            "town",
+            "village"
+          ],
+          [
+            "in",
+            "class",
+            "settlement",
+            "subregion"
+          ]
         ]
       ],
       "layout": {
@@ -1170,7 +1223,7 @@
           0
         ],
         "text-anchor": "center",
-        "text-field": "{name}"
+        "text-field": "{name_en}"
       },
       "paint": {
         "text-color": "rgb(117, 129, 145)",
@@ -1198,7 +1251,7 @@
         ],
         [
           "==",
-          "class",
+          "subclass",
           "suburb"
         ]
       ],
@@ -1216,7 +1269,7 @@
           0
         ],
         "text-anchor": "center",
-        "text-field": "{name}"
+        "text-field": "{name_en}"
       },
       "paint": {
         "text-color": "rgb(117, 129, 145)",
@@ -1244,7 +1297,7 @@
         ],
         [
           "==",
-          "class",
+          "subclass",
           "village"
         ]
       ],
@@ -1263,7 +1316,7 @@
         ],
         "icon-size": 0.4,
         "text-anchor": "left",
-        "text-field": "{name}"
+        "text-field": "{name_en}"
       },
       "paint": {
         "text-color": "rgb(117, 129, 145)",
@@ -1292,7 +1345,7 @@
         ],
         [
           "==",
-          "class",
+          "subclass",
           "town"
         ]
       ],
@@ -1336,7 +1389,7 @@
             ]
           ]
         },
-        "text-field": "{name}"
+        "text-field": "{name_en}"
       },
       "paint": {
         "text-color": "rgb(117, 129, 145)",
@@ -1367,7 +1420,7 @@
           "any",
           [
             "==",
-            "class",
+            "subclass",
             "city"
           ],
           [
@@ -1417,7 +1470,7 @@
             ]
           ]
         },
-        "text-field": "{name}"
+        "text-field": "{name_en}"
       },
       "paint": {
         "text-color": "rgb(117, 129, 145)",
@@ -1453,7 +1506,7 @@
           ],
           [
             "==",
-            "class",
+            "subclass",
             "city"
           ]
         ]
