@@ -1,4 +1,5 @@
 # Positron
+[![Build Status](https://travis-ci.org/openmaptiles/positron-gl-style.svg?branch=master)](https://travis-ci.org/openmaptiles/positron-gl-style)
 
 A Mapbox GL basemap style useful for data visualizations. The cartography is based on the
 [CartoDB Positron Basemap](https://github.com/CartoDB/CartoDB-basemaps) and it is using the vector tile
