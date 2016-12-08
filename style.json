@@ -31,7 +31,7 @@
       "url": "https://osm2vectortiles.tileserver.com/v3.json"
     }
   },
-  "sprite": "https://openmaptiles.github.io/positron-gl-style/sprite",
+  "sprite": "http://openmaptiles.org/positron-gl-style/sprite",
   "glyphs": "//fonts.openmaptiles.org/{fontstack}/{range}.pbf",
   "layers": [
     {
