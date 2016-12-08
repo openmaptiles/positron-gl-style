@@ -19,20 +19,20 @@
     }
   },
   "center": [
-    8.75357390337794,
-    47.24657666636625
+    10.184401828277089,
+    -1.1368683772161603e-13
   ],
-  "zoom": 8.896476801499933,
+  "zoom": 0.5526689841470862,
   "bearing": 0,
   "pitch": 0,
   "sources": {
     "openmaptiles": {
-      "url": "mapbox://morgenkaffee.8to5aq6q",
-      "type": "vector"
+      "type": "vector",
+      "url": "https://osm2vectortiles.tileserver.com/v3.json"
     }
   },
-  "sprite": "mapbox://sprites/morgenkaffee/ciuxun7se019v2jl8qb2jt3tf",
-  "glyphs": "mapbox://fonts/morgenkaffee/{fontstack}/{range}.pbf",
+  "sprite": "https://openmaptiles.github.io/positron-gl-style/sprite",
+  "glyphs": "//fonts.openmaptiles.org/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
@@ -266,8 +266,7 @@
         "text-rotation-alignment": "map",
         "symbol-spacing": 500,
         "text-font": [
-          "Azo Sans Medium Italic",
-          "Arial Unicode MS Regular"
+          "Metropolis Medium Italic"
         ],
         "text-size": 12
       },
@@ -984,8 +983,7 @@
         "text-transform": "uppercase",
         "symbol-spacing": 350,
         "text-font": [
-          "Azo Sans Regular",
-          "Arial Unicode MS Regular"
+          "Metropolis Regular"
         ],
         "symbol-placement": "line",
         "visibility": "visible",
@@ -1029,8 +1027,7 @@
         "text-size": 10,
         "symbol-spacing": 350,
         "text-font": [
-          "Azo Sans Light",
-          "Arial Unicode MS Regular"
+          "Metropolis Light"
         ],
         "symbol-placement": "line",
         "visibility": "visible",
@@ -1167,8 +1164,7 @@
         "text-size": 10,
         "text-transform": "uppercase",
         "text-font": [
-          "Azo Sans Regular",
-          "Arial Unicode MS Regular"
+          "Metropolis Regular"
         ],
         "text-justify": "center",
         "visibility": "visible",
@@ -1212,8 +1208,7 @@
         "text-size": 10,
         "text-transform": "uppercase",
         "text-font": [
-          "Azo Sans Regular",
-          "Arial Unicode MS Regular"
+          "Metropolis Regular"
         ],
         "text-justify": "center",
         "visibility": "visible",
@@ -1257,8 +1252,7 @@
         "text-size": 10,
         "text-transform": "uppercase",
         "text-font": [
-          "Azo Sans Regular",
-          "Arial Unicode MS Regular"
+          "Metropolis Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
@@ -1317,8 +1311,7 @@
         },
         "text-transform": "uppercase",
         "text-font": [
-          "Azo Sans Regular",
-          "Arial Unicode MS Regular"
+          "Metropolis Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
@@ -1402,8 +1395,7 @@
         },
         "text-transform": "uppercase",
         "text-font": [
-          "Azo Sans Regular",
-          "Arial Unicode MS Regular"
+          "Metropolis Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
@@ -1482,8 +1474,7 @@
         },
         "text-transform": "uppercase",
         "text-font": [
-          "Azo Sans Regular",
-          "Arial Unicode MS Regular"
+          "Metropolis Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
@@ -1567,8 +1558,7 @@
         },
         "text-transform": "uppercase",
         "text-font": [
-          "Azo Sans Regular",
-          "Arial Unicode MS Regular"
+          "Metropolis Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
@@ -1626,8 +1616,7 @@
         "visibility": "visible",
         "text-field": "{name_en}",
         "text-font": [
-          "Azo Sans Regular",
-          "Arial Unicode MS Regular"
+          "Metropolis Regular"
         ],
         "text-transform": "uppercase",
         "text-size": 10
@@ -1673,8 +1662,7 @@
         "visibility": "visible",
         "text-field": "{name_en}",
         "text-font": [
-          "Azo Sans Regular",
-          "Arial Unicode MS Regular"
+          "Metropolis Regular"
         ],
         "text-transform": "uppercase",
         "text-size": {
@@ -1743,8 +1731,7 @@
         "visibility": "visible",
         "text-field": "{name_en}",
         "text-font": [
-          "Azo Sans Regular",
-          "Arial Unicode MS Regular"
+          "Metropolis Regular"
         ],
         "text-transform": "uppercase",
         "text-size": {
