@@ -27,12 +27,12 @@
   "pitch": 0,
   "sources": {
     "openmaptiles": {
-      "type": "vector",
-      "url": "https://osm2vectortiles.tileserver.com/v3.json"
+      "url": "mapbox://openmaptiles.805mi4we",
+      "type": "vector"
     }
   },
-  "sprite": "http://openmaptiles.org/positron-gl-style/sprite",
-  "glyphs": "//fonts.openmaptiles.org/{fontstack}/{range}.pbf",
+  "sprite": "mapbox://sprites/openmaptiles/ciwf3o3u2008z2pmq7pmvm6xq",
+  "glyphs": "mapbox://fonts/openmaptiles/{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
@@ -266,7 +266,8 @@
         "text-rotation-alignment": "map",
         "symbol-spacing": 500,
         "text-font": [
-          "Metropolis Medium Italic"
+          "Metropolis Medium Italic",
+          "Arial Unicode MS Regular"
         ],
         "text-size": 12
       },
@@ -983,7 +984,8 @@
         "text-transform": "uppercase",
         "symbol-spacing": 350,
         "text-font": [
-          "Metropolis Regular"
+          "Metropolis Regular",
+          "Arial Unicode MS Regular"
         ],
         "symbol-placement": "line",
         "visibility": "visible",
@@ -1027,7 +1029,8 @@
         "text-size": 10,
         "symbol-spacing": 350,
         "text-font": [
-          "Metropolis Light"
+          "Metropolis Light",
+          "Arial Unicode MS Regular"
         ],
         "symbol-placement": "line",
         "visibility": "visible",
@@ -1164,7 +1167,8 @@
         "text-size": 10,
         "text-transform": "uppercase",
         "text-font": [
-          "Metropolis Regular"
+          "Metropolis Regular",
+          "Arial Unicode MS Regular"
         ],
         "text-justify": "center",
         "visibility": "visible",
@@ -1208,7 +1212,8 @@
         "text-size": 10,
         "text-transform": "uppercase",
         "text-font": [
-          "Metropolis Regular"
+          "Metropolis Regular",
+          "Arial Unicode MS Regular"
         ],
         "text-justify": "center",
         "visibility": "visible",
@@ -1252,7 +1257,8 @@
         "text-size": 10,
         "text-transform": "uppercase",
         "text-font": [
-          "Metropolis Regular"
+          "Metropolis Regular",
+          "Arial Unicode MS Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
@@ -1311,7 +1317,8 @@
         },
         "text-transform": "uppercase",
         "text-font": [
-          "Metropolis Regular"
+          "Metropolis Regular",
+          "Arial Unicode MS Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
@@ -1395,7 +1402,8 @@
         },
         "text-transform": "uppercase",
         "text-font": [
-          "Metropolis Regular"
+          "Metropolis Regular",
+          "Arial Unicode MS Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
@@ -1474,7 +1482,8 @@
         },
         "text-transform": "uppercase",
         "text-font": [
-          "Metropolis Regular"
+          "Metropolis Regular",
+          "Arial Unicode MS Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
@@ -1558,7 +1567,8 @@
         },
         "text-transform": "uppercase",
         "text-font": [
-          "Metropolis Regular"
+          "Metropolis Regular",
+          "Arial Unicode MS Regular"
         ],
         "text-justify": "left",
         "visibility": "visible",
@@ -1616,7 +1626,8 @@
         "visibility": "visible",
         "text-field": "{name_en}",
         "text-font": [
-          "Metropolis Regular"
+          "Metropolis Regular",
+          "Arial Unicode MS Regular"
         ],
         "text-transform": "uppercase",
         "text-size": 10
@@ -1662,7 +1673,8 @@
         "visibility": "visible",
         "text-field": "{name_en}",
         "text-font": [
-          "Metropolis Regular"
+          "Metropolis Regular",
+          "Arial Unicode MS Regular"
         ],
         "text-transform": "uppercase",
         "text-size": {
@@ -1731,7 +1743,8 @@
         "visibility": "visible",
         "text-field": "{name_en}",
         "text-font": [
-          "Metropolis Regular"
+          "Metropolis Regular",
+          "Arial Unicode MS Regular"
         ],
         "text-transform": "uppercase",
         "text-size": {
@@ -1771,5 +1784,10 @@
         }
       }
     }
-  ]
+  ],
+  "created": "2016-12-07T15:39:04.691Z",
+  "id": "ciwf3o3u2008z2pmq7pmvm6xq",
+  "modified": "2016-12-07T15:56:07.353Z",
+  "owner": "openmaptiles",
+  "draft": false
 }
