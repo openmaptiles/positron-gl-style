@@ -28,7 +28,7 @@
   "pitch": 0,
   "sources": {
     "openmaptiles": {
-      "url": "mapbox://openmaptiles.805mi4we",
+      "url": "mapbox://openmaptiles.4qljc88t",
       "type": "vector"
     }
   },
@@ -154,7 +154,7 @@
         ],
         [
           "==",
-          "subclass",
+          "class",
           "residential"
         ]
       ],
