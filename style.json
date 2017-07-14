@@ -76,20 +76,7 @@
       },
       "paint": {
         "fill-color": "rgb(194, 200, 202)",
-        "fill-antialias": true,
-        "fill-outline-color": {
-          "base": 1,
-          "stops": [
-            [
-              0,
-              "hsla(180, 6%, 63%, 0.82)"
-            ],
-            [
-              22,
-              "hsla(180, 6%, 63%, 0.18)"
-            ]
-          ]
-        }
+        "fill-antialias": true
       }
     },
     {
