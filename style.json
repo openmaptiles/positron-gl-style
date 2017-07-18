@@ -275,11 +275,6 @@
       "source": "openmaptiles",
       "source-layer": "building",
       "minzoom": 12,
-      "filter": [
-        "==",
-        "$type",
-        "Polygon"
-      ],
       "paint": {
         "fill-color": "rgb(234, 234, 229)",
         "fill-outline-color": "rgb(219, 219, 218)",
