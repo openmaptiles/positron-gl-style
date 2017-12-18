@@ -251,7 +251,7 @@
         "LineString"
       ],
       "layout": {
-        "text-field": "{name}",
+        "text-field": "{name:latin}\n{name:nonlatin}",
         "symbol-placement": "line",
         "text-rotation-alignment": "map",
         "symbol-spacing": 500,
@@ -1387,7 +1387,7 @@
         "visibility": "visible",
         "text-rotation-alignment": "map",
         "text-pitch-alignment": "viewport",
-        "text-field": "{name}"
+        "text-field": "{name:latin} {name:nonlatin}"
       },
       "paint": {
         "text-color": "#bbb",
@@ -1573,7 +1573,7 @@
           0
         ],
         "text-anchor": "center",
-        "text-field": "{name_en}"
+        "text-field": "{name:latin}\n{name:nonlatin}"
       },
       "paint": {
         "text-color": "rgb(117, 129, 145)",
@@ -1618,7 +1618,7 @@
           0
         ],
         "text-anchor": "center",
-        "text-field": "{name_en}"
+        "text-field": "{name:latin}\n{name:nonlatin}"
       },
       "paint": {
         "text-color": "rgb(117, 129, 145)",
@@ -1664,7 +1664,7 @@
         ],
         "icon-size": 0.4,
         "text-anchor": "left",
-        "text-field": "{name_en}"
+        "text-field": "{name:latin}\n{name:nonlatin}"
       },
       "paint": {
         "text-color": "rgb(117, 129, 145)",
@@ -1736,7 +1736,7 @@
             ]
           ]
         },
-        "text-field": "{name_en}"
+        "text-field": "{name:latin}\n{name:nonlatin}"
       },
       "paint": {
         "text-color": "rgb(117, 129, 145)",
@@ -1821,7 +1821,7 @@
             ]
           ]
         },
-        "text-field": "{name_en}"
+        "text-field": "{name:latin}\n{name:nonlatin}"
       },
       "paint": {
         "text-color": "rgb(117, 129, 145)",
@@ -1901,7 +1901,7 @@
             ]
           ]
         },
-        "text-field": "{name}"
+        "text-field": "{name:latin}\n{name:nonlatin}"
       },
       "paint": {
         "text-color": "rgb(117, 129, 145)",
@@ -1986,7 +1986,7 @@
             ]
           ]
         },
-        "text-field": "{name}"
+        "text-field": "{name:latin}\n{name:nonlatin}"
       },
       "paint": {
         "text-color": "rgb(117, 129, 145)",
@@ -2020,7 +2020,7 @@
       ],
       "layout": {
         "visibility": "visible",
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}\n{name:nonlatin}",
         "text-font": [
           "Metropolis Regular",
           "Noto Sans Regular"
@@ -2063,7 +2063,7 @@
       ],
       "layout": {
         "visibility": "visible",
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-font": [
           "Metropolis Light Italic",
           "Noto Sans Italic"
@@ -2134,7 +2134,7 @@
       ],
       "layout": {
         "visibility": "visible",
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-font": [
           "Metropolis Regular",
           "Noto Sans Regular"
@@ -2205,7 +2205,7 @@
       ],
       "layout": {
         "visibility": "visible",
-        "text-field": "{name_en}",
+        "text-field": "{name:latin}",
         "text-font": [
           "Metropolis Regular",
           "Noto Sans Regular"
