@@ -1546,12 +1546,12 @@
       "filter": [
         "all",
         [
-          "!in",
+          "in",
           "class",
-          "city",
-          "suburb",
-          "town",
-          "village"
+          "continent",
+          "hamlet",
+          "neighbourhood",
+          "isolated_dwelling"
         ],
         [
           "==",
