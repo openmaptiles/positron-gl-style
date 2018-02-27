@@ -525,7 +525,6 @@
       "source": "openmaptiles",
       "source-layer": "aeroway",
       "minzoom": 11,
-      "maxzoom": 24,
       "filter": [
         "all",
         [
