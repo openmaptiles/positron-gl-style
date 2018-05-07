@@ -21,13 +21,6 @@
     "openmaptiles:mapbox:owner": "openmaptiles",
     "openmaptiles:mapbox:source:url": "mapbox://openmaptiles.4qljc88t"
   },
-  "center": [
-    10.184401828277089,
-    -1.1368683772161603e-13
-  ],
-  "zoom": 0.8902641636539237,
-  "bearing": 0,
-  "pitch": 0,
   "sources": {
     "openmaptiles": {
       "type": "vector",
