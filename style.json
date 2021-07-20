@@ -22,11 +22,11 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "https://api.maptiler.com/tiles/v3/tiles.json?key={key}"
+      "url": "mbtiles://{v3}"
     }
   },
-  "sprite": "https://openmaptiles.github.io/positron-gl-style/sprite",
-  "glyphs": "https://api.maptiler.com/fonts/{fontstack}/{range}.pbf?key={key}",
+  "sprite": "{styleJsonFolder}/sprite",
+  "glyphs": "{fontstack}/{range}.pbf",
   "layers": [
     {
       "id": "background",
