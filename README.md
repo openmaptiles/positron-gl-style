@@ -25,3 +25,13 @@ After you've started Maputnik open the editor on `localhost:8000`.
 ```
 maputnik --watch --file style.json
 ```
+
+## Sprites Generation
+
+The `dolomate/spritezero` docker image was used for sprite generation:
+
+```
+docker run -it -e FOLDER=_svg -e THEME=sprites -v ${PWD}/data:/data dolomate/spritezero
+```
+
+as described in [https://github.com/macteo/spritezero-docker](https://github.com/macteo/spritezero-docker)
