@@ -1,4 +1,4 @@
-Copyright (c) 2016, KlokanTech.com & OpenMapTiles contributors.  
+Copyright (c) 2024, MapTiler.com & OpenMapTiles contributors.  
 Copyright (c) 2015, CartoDB Inc.  
 All rights reserved.
 
@@ -45,18 +45,18 @@ on map images, but should be reasonably accessible from maps based on this style
 
 Products or services using maps derived from OpenMapTiles schema need to visibly
 credit "OpenMapTiles.org" or reference "OpenMapTiles" with a link to
-http://openmaptiles.org/.
+https://openmaptiles.org/.
 
 For a browsable electronic map based on OpenMapTiles and OpenStreetMap data, the
 credit should appear in the corner of the map. For example:
 
-[© OpenMapTiles](http://openmaptiles.org/)
-[© OpenStreetMap contributors](http://www.openstreetmap.org/copyright)
+[© OpenMapTiles](https://openmaptiles.org/)
+[© OpenStreetMap contributors](https://www.openstreetmap.org/copyright)
 
 For printed and static maps a similar attribution should be made in a textual
 description near the image, in the same fashion as if you cite a photograph.
 
 Exceptions to OpenMapTiles attribution requirement can be in a written form granted
-by Klokan Technologies GmbH (info@klokantech.com).  
-The project contributors grant Klokan Technologies GmbH the license to give such
+by MapTiler AG (info@maptiler.com).  
+The project contributors grant MapTiler AG the license to give such
 exceptions on a commercial basis.
