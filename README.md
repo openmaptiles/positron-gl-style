@@ -14,7 +14,7 @@ Use the map editor in MapTiler Cloud to view and adjust this map. Open the edito
 
 [Try style editor](https://cloud.maptiler.com/maps/editor)
 
-[Test MapTiler Dataviz](https://cloud.maptiler.com/maps/editor?map=dataviz)
+[Test Positron](https://cloud.maptiler.com/maps/editor?map=positron)
 
 Or use the [Maputnik CLI](https://openmaptiles.org/docs/style/maputnik/) to edit and develop the style.
 After you've started Maputnik open the editor on `localhost:8000`.
